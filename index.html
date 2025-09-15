@@ -1,15 +1,37 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Server</title>
   <style>
+    /* Full-page background with overlay */
     body {
+      margin: 0;
+      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      margin: 0;
-      font-family: sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                  url('Cloud.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+
+    /* Heading style */
+    h1 {
+      font-size: 3em;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    /* Simple fade-in animation */
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
