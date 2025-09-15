@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devserver-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: devserver
+  template:
+    metadata:
+      labels:
+        app: devserver
+    spec:
+      containers:
+      - name: devserver
+        image: kartiksingh970/devserver-app:v1
+        ports:
+        - containerPort: 80
