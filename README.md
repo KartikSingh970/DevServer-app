@@ -61,7 +61,7 @@ minikube service devserver-service
 
 ## 🖼️ Screenshot of Running App
 
-![Web App Screenshot](output.png)
+![Web App Screenshot](./output.png)
 
 ✍️ Author
 
