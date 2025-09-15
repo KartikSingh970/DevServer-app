@@ -59,6 +59,10 @@ Via Minikube Kubernetes Service:
 
 minikube service devserver-service
 
+## 🖼️ Screenshot of Running App
+
+![Web App Screenshot](output.png)
+
 ✍️ Author
 
 Kartik Singh
